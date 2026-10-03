@@ -1,0 +1,24 @@
+{
+  "gameName": "Slayers 2",
+  "platform": "roblox",
+  "officialVerification": false,
+  "reviewed": "2026-09-26",
+  "summary": "Facts below are the ones several September 2026 guides agreed on, or that the Roblox listing states. They are not an official balance patch.",
+  "facts": [
+    { "id": "listing", "statement": "Live Roblox title is Slayers 2 by Ouw Productions, place 16205713724.", "support": "Roblox listing" },
+    { "id": "dungeon-name", "statement": "The dungeon players mean is Ouwigahara.", "support": "Multiple guides 2026-09-19 to 2026-09-24, not an official post" },
+    { "id": "dungeon-level", "statement": "Ouwigahara unlock is level 65 via Blacksmith Togane in Hidden Mist Village and his other-forge quest.", "support": "Same guide cluster. Exact button text differs, so the site tells players to use the on-screen forge line." },
+    { "id": "dungeon-portal", "statement": "A purple portal is registered once, then Ouwigahara Normal is queued from the hub.", "support": "AllThings.How and slayers2-game.wiki. The walk to the first portal differs between those guides, so the site says follow the quest marker." },
+    { "id": "dungeon-points", "statement": "About 90000 points in one run is the V2 score those guides use. The forge screen is the price.", "support": "Multiple dungeon guides. Material counts and a 5-player cap were single-source and were not published." },
+    { "id": "codes-active", "statement": "ANIM4L (50 Spins and 5 Ores), BREATHRESET, ARTRESET, SPINS50, and SkillTreeReset were still listed active on 2026-09-26.", "support": "Destructoid, Pocket Tactics, and other same-day lists" },
+    { "id": "codes-release26", "statement": "Release26 (30 Spins, 100 Wen, 1 Refinement Ore) was still listed by some 2026-09-26 pages and marked expired by GameRant on 2026-09-25.", "support": "Conflict. Site status is disputed, not active." },
+    { "id": "exam", "statement": "Final Selection remains the separate level 45 exam.", "support": "Existing cross-checked exam guides. It is not the dungeon." }
+  ],
+  "unknowns": [
+    "Exact Togane button quote",
+    "One GPS path to the first portal",
+    "Exact card values, floor counts, and V2 material counts",
+    "Whether Release26 still redeems in game on 2026-09-26"
+  ],
+  "sources": []
+}

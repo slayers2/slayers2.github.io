@@ -1,0 +1,29 @@
+{
+  "gameName": "Slayers 2",
+  "mainKeyword": "slayers 2 wiki",
+  "opportunityMode": "breakout_new_game",
+  "siteStrategy": "Live launch site: homepage plus 8 guides. Do not restore /wiki/. Do not add more SEO pages. Do not change the nine URLs or the domain.",
+  "doNotRestore": ["/wiki/"],
+  "siteUrl": "https://slayers2.github.io",
+  "basePath": "",
+  "customDomain": null,
+  "singlePageReason": null,
+  "pages": [
+    { "slug": "", "pageType": "home", "primaryKeyword": "slayers 2 wiki", "navVisible": true, "selected": true, "pageDecision": "Launch", "reason": "Hub for the eight guides." },
+    { "slug": "codes", "pageType": "codes", "primaryKeyword": "slayers 2 codes", "navVisible": true, "selected": true, "pageDecision": "Launch", "reason": "Active codes and redeem steps." },
+    { "slug": "fishing", "pageType": "guide", "primaryKeyword": "slayers 2 fishing", "navVisible": true, "selected": true, "pageDecision": "Launch", "reason": "Permit, rods, legendary rod." },
+    { "slug": "weapons", "pageType": "guide", "primaryKeyword": "slayers 2 weapons", "navVisible": true, "selected": true, "pageDecision": "Launch", "reason": "Nightfall Katana, War Fans, forge." },
+    { "slug": "black-market", "pageType": "guide", "primaryKeyword": "black market slayers 2", "navVisible": true, "selected": true, "pageDecision": "Launch", "reason": "Black Marketer timing and clusters." },
+    { "slug": "breathing-styles", "pageType": "guide", "primaryKeyword": "slayers 2 breathing", "navVisible": true, "selected": true, "pageDecision": "Launch", "reason": "Eight trainers and unlocks." },
+    { "slug": "blood-demon-arts", "pageType": "guide", "primaryKeyword": "slayers 2 bda", "navVisible": true, "selected": true, "pageDecision": "Launch", "reason": "Demon arts and Shockwave. Shown in the header." },
+    { "slug": "final-selection", "pageType": "guide", "primaryKeyword": "slayers 2 final selection", "navVisible": true, "selected": true, "pageDecision": "Launch", "reason": "Level 45 exam. Shown in the header." },
+    { "slug": "dungeons", "pageType": "guide", "primaryKeyword": "dungeon slayers 2", "navVisible": true, "selected": true, "pageDecision": "Launch", "reason": "Ouwigahara level 65 dungeon. Shown in the header. Not Final Selection." }
+  ],
+  "planningSummary": {
+    "suggestedLaunchPages": 9,
+    "launchCount": 9,
+    "strategyNotes": "The old manual skeleton (homepage + /wiki/ only) is retired. Content lives in content/site-pages/*.ts. The header must list Home plus every enabled core page: Codes, Fishing, Weapons, Black Market, Breathing, BDA, Final Selection, Dungeons. Do not hide core pages from the header.",
+    "opportunityMode": "breakout_new_game",
+    "retiredSlugs": ["wiki"]
+  }
+}

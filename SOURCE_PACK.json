@@ -1,0 +1,53 @@
+{
+  "gameName": "Slayers 2",
+  "reviewed": "2026-09-26",
+  "officialVerification": false,
+  "note": "Secondary pages and the public Roblox listing were compared on 2026-09-26. None of these secondary pages are an official patch note. Numbers that only one source printed were left off the site.",
+  "sources": [
+    {
+      "url": "https://www.roblox.com/games/16205713724/Slayers-2",
+      "kind": "official-listing",
+      "usedFor": "Title, developer, genre, release listing, controls"
+    },
+    {
+      "url": "https://www.roblox.com/communities/12851171/Ouw-Productions",
+      "kind": "official-community",
+      "usedFor": "Code redeem step"
+    },
+    {
+      "url": "https://www.roblox.com/events/7918644252966519363",
+      "kind": "official-event",
+      "usedFor": "September 18, 2026 release event date"
+    },
+    {
+      "url": "https://allthings.how/project-slayers-2-dungeon-guide-best-cards-and-point-priorities/",
+      "kind": "secondary-guide",
+      "dated": "2026-09-20",
+      "usedFor": "Ouwigahara, level 65, Togane, portal registration, card priority, about 90000 points"
+    },
+    {
+      "url": "https://allthings.how/slayers-2-how-to-forge-v2-weapons-and-endgame-sets/",
+      "kind": "secondary-guide",
+      "dated": "2026-09-19",
+      "usedFor": "V2 forge tied to dungeon points. Dialogue wording disagreed with the dungeon guide, so the site does not lock one button quote."
+    },
+    {
+      "url": "https://slayers2-game.wiki/guide/dungeon-guide/",
+      "kind": "secondary-guide",
+      "dated": "2026-09-21",
+      "usedFor": "Ouwigahara name, level 65, hub queue, card and point loop"
+    },
+    {
+      "url": "https://gamerant.com/roblox-project-slayers-2-codes-discord-server-link/",
+      "kind": "secondary-guide",
+      "dated": "2026-09-25",
+      "usedFor": "Release26 marked expired while ANIM4L, resets, SPINS50, and SkillTreeReset stayed active"
+    }
+  ],
+  "alsoComparedWithoutArchivingASingleUrl": [
+    "Destructoid and Pocket Tactics code lists updated 2026-09-26 still printed ANIM4L, BREATHRESET, ARTRESET, SPINS50, SkillTreeReset, and Release26",
+    "UrGameTips 2026-09-26 code list",
+    "IndiaTimes and NerdsChalk dungeon explainers from 2026-09-20 to 2026-09-24",
+    "YouTube unlock videos for Ouwigahara dated 2026-09-21 and 2026-09-23"
+  ]
+}

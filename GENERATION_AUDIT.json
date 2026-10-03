@@ -1,0 +1,14 @@
+{
+  "contentMode": "manual-launch",
+  "seoMode": "nine-url-launch",
+  "factPackSource": "compared-2026-09-26-not-official",
+  "qaVersion": "launch-2026-09-26",
+  "themeMode": "horror-fixed-template",
+  "buildMode": "static-export",
+  "readyForLaunch": true,
+  "siteUrl": "https://slayers2.github.io",
+  "basePath": "",
+  "retiredSlugs": ["wiki"],
+  "liveSlugs": ["", "codes", "fishing", "weapons", "black-market", "breathing-styles", "blood-demon-arts", "final-selection", "dungeons"],
+  "note": "Supersedes the skeleton audit that described homepage + /wiki/ and missing svg assets. Live assets are public/images/slayers-2-logo.webp, slayers-2-cover.webp, and slayers-2-og.svg. Do not recreate /wiki/."
+}

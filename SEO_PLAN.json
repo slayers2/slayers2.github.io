@@ -1,0 +1,71 @@
+{
+  "gameName": "Slayers 2",
+  "siteUrl": "https://slayers2.github.io",
+  "note": "Matches the live nine URLs. Do not plan /wiki/. Do not append a title suffix. Titles below are absolute.",
+  "pages": [
+    {
+      "slug": "",
+      "primaryKeyword": "slayers 2 wiki",
+      "title": "Slayers 2 Wiki: Codes, Fishing, Weapons & Guides",
+      "h1": "Slayers 2 Wiki",
+      "description": "Slayers 2 Wiki with current codes, fishing, weapons, Black Market, Breathing Styles, Blood Demon Arts, Final Selection and dungeon guides for Roblox players."
+    },
+    {
+      "slug": "codes",
+      "primaryKeyword": "slayers 2 codes",
+      "title": "Slayers 2 Codes (September 2026) & How to Redeem",
+      "h1": "Slayers 2 Codes",
+      "description": "Find current Slayers 2 codes, how to redeem them, and what each reward does. Updated for the latest Roblox build with source-checked code status."
+    },
+    {
+      "slug": "fishing",
+      "primaryKeyword": "slayers 2 fishing",
+      "title": "Slayers 2 Fishing Guide: Rods, Permit & Legendary Rod",
+      "h1": "Slayers 2 Fishing Guide",
+      "description": "Learn Slayers 2 fishing from permit and rod basics to the Legendary Fishing Rod route, with clear steps, verified requirements and practical fishing tips."
+    },
+    {
+      "slug": "weapons",
+      "primaryKeyword": "slayers 2 weapons",
+      "title": "Slayers 2 Weapons: Nightfall Katana, War Fans & More",
+      "h1": "Slayers 2 Weapons",
+      "description": "Explore Slayers 2 weapons, where they come from, how upgrades work, and what players should know about Nightfall Katana, War Fans and other key weapons."
+    },
+    {
+      "slug": "black-market",
+      "primaryKeyword": "black market slayers 2",
+      "title": "Slayers 2 Black Market Guide: Locations, Times & Items",
+      "h1": "Slayers 2 Black Market Guide",
+      "description": "Find how the Slayers 2 Black Market works, how to locate the Black Marketer, what can appear there and what to check before spending your Wen."
+    },
+    {
+      "slug": "breathing-styles",
+      "primaryKeyword": "slayers 2 breathing",
+      "title": "Slayers 2 Breathing Styles: Trainers, Unlocks & Best Picks",
+      "h1": "Slayers 2 Breathing Styles",
+      "description": "Compare Slayers 2 Breathing Styles, trainer and unlock requirements, and practical strengths for progression, PvE and PvP before choosing your build."
+    },
+    {
+      "slug": "blood-demon-arts",
+      "primaryKeyword": "slayers 2 bda",
+      "title": "Slayers 2 Blood Demon Arts (BDA): Unlocks & Shockwave",
+      "h1": "Slayers 2 Blood Demon Arts (BDA)",
+      "description": "Learn how Slayers 2 Blood Demon Arts work, how BDA unlocks are obtained, what current arts do, and where Shockwave fits into Demon builds."
+    },
+    {
+      "slug": "final-selection",
+      "primaryKeyword": "slayers 2 final selection",
+      "title": "Slayers 2 Final Selection Guide: Requirements & Tips",
+      "h1": "Slayers 2 Final Selection Guide",
+      "description": "Prepare for Slayers 2 Final Selection with verified requirements, entry steps, trial tips, common failure points and what to do after completing it."
+    },
+    {
+      "slug": "dungeons",
+      "primaryKeyword": "dungeon slayers 2",
+      "title": "Slayers 2 Dungeons Guide: How to Unlock & Progress",
+      "h1": "Slayers 2 Dungeons Guide",
+      "description": "Learn how Slayers 2 dungeons work, how to access them, what to prepare before a run, how progression works and which rewards are worth targeting.",
+      "intentNote": "Primary intent is the level 65 Ouwigahara dungeon, not Final Selection parkour and not open-world raid chests."
+    }
+  ]
+}

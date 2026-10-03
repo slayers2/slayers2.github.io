@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checkedAt": "2026-09-26",
+  "siteUrl": "https://slayers2.github.io",
+  "basePath": "",
+  "readyForLaunch": true,
+  "commands": {
+    "npm ci": "PASS",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "validate": "PASS",
+    "build": "PASS",
+    "audit:seo": "PASS"
+  },
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "Supersedes the skeleton QA that looked for missing svg logo/cover files and a /wiki/ page.",
+    "Live assets: public/images/slayers-2-logo.webp, slayers-2-cover.webp, slayers-2-og.svg.",
+    "Indexable URLs are the homepage plus eight guides. Legal pages stay noindex,follow and are omitted from sitemap.xml.",
+    "Release26 is published as disputed, not as a confirmed active code."
+  ]
+}

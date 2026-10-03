@@ -1,0 +1,30 @@
+{
+  "projectId": "site_8c6d9b88-eaf2-4ff5-b5dd-2e41130b3721",
+  "gameName": "Slayers 2",
+  "generatedAt": "2026-09-26T00:00:00.000Z",
+  "reviewedAt": "2026-09-26",
+  "templateVersion": "game-seo-master-template-v1",
+  "readyForLaunch": true,
+  "siteUrl": "https://slayers2.github.io",
+  "basePath": "",
+  "contentMode": "manual-launch",
+  "seoMode": "nine-url-launch",
+  "factPackSource": "compared-2026-09-26-not-official",
+  "qaVersion": "launch-2026-09-26",
+  "launchEligible": true,
+  "launchLabel": "ready",
+  "hardFailCount": 0,
+  "warningCount": 0,
+  "buildReady": true,
+  "publishReady": true,
+  "projectStatus": "ready",
+  "liveSlugs": ["", "codes", "fishing", "weapons", "black-market", "breathing-styles", "blood-demon-arts", "final-selection", "dungeons"],
+  "retiredSlugs": ["wiki"],
+  "launchReasons": [],
+  "note": "The homepage + /wiki/ skeleton and the missing-svg asset errors are obsolete. Do not recreate /wiki/. Do not set readyForLaunch back to false unless a new build or SEO audit fails. Official verification was not claimed.",
+  "qa": {
+    "passed": true,
+    "errors": [],
+    "warnings": []
+  }
+}

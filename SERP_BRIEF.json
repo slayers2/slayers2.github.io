@@ -1,0 +1,23 @@
+{
+  "gameName": "Slayers 2",
+  "reviewed": "2026-09-26",
+  "pages": [
+    {
+      "slug": "dungeons",
+      "queries": ["slayers 2 dungeon", "dungeon slayers 2", "slayers 2 dungeons", "slayers 2 dungeon guide"],
+      "primaryIntent": "Level 65 Ouwigahara dungeon: Togane's second forge quest, portal registration, Dungeon Points, V2 weapons.",
+      "notTheIntent": "Final Selection parkour, open-world raid chests, or a bear-area portal as the main route."
+    },
+    {
+      "slug": "codes",
+      "queries": ["slayers 2 codes"],
+      "primaryIntent": "Which codes still redeem on 2026-09-26, the reward, and the menu field.",
+      "conflict": "Release26 is disputed between same-week lists."
+    }
+  ],
+  "conflicts": [
+    "Togane dialogue: one guide says the level 65 forge line, another says the other forge. Site uses the on-screen option, not one quote.",
+    "First portal trail: Forgotten Ruins versus Mistfall Harbor. Site says follow the quest marker.",
+    "Release26 active versus expired across 2026-09-25 and 2026-09-26 lists."
+  ]
+}
