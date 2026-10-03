@@ -2,6 +2,7 @@ import { ExternalLink, Mail } from "lucide-react";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import type { InternalLink } from "@/config/types";
+import { enabledMoreGuides } from "@/content/registry";
 import { routePath } from "@/lib/urls";
 
 const footerGroups = [
@@ -42,6 +43,14 @@ export function SiteFooter({ coreLinks, legalLinks }: { coreLinks: InternalLink[
             </ul>
           </div>
         ))}
+        <div>
+          <p className="mb-3 text-sm font-black uppercase tracking-widest text-foreground">More Guides</p>
+          <ul className="grid gap-2 text-sm text-muted-foreground">
+            {enabledMoreGuides.map((page) => (
+              <li key={page.slug}><Link className="hover:text-primary" href={routePath(page.slug)}>{page.navLabel}</Link></li>
+            ))}
+          </ul>
+        </div>
         <div>
           <p className="mb-3 text-sm font-black uppercase tracking-widest text-foreground">Legal</p>
           <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-muted-foreground">
