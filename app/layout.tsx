@@ -9,7 +9,7 @@ import { siteSkin } from "@/config/skin";
 import { scopedTemplateCss } from "@/lib/fixed-template/render";
 import { isFixedTemplate } from "@/lib/fixed-template/mode";
 import { themes } from "@/config/themes";
-import { enabledCorePages, enabledLegalPages } from "@/content/registry";
+import { enabledCorePages, enabledLegalPages, enabledMoreGuides } from "@/content/registry";
 import { fontFaceCss } from "@/lib/fonts";
 import { rootMetadata } from "@/lib/seo";
 import "./globals.css";
@@ -19,6 +19,7 @@ export const metadata = rootMetadata();
 const headerLinks = [
   { label: "Home", slug: "" },
   ...enabledCorePages.map((page) => ({ label: page.navLabel, slug: page.slug })),
+  ...enabledMoreGuides.map((page) => ({ label: page.navLabel, slug: page.slug })),
 ];
 const footerLinks = enabledCorePages.map((page) => ({ label: page.navLabel, slug: page.slug }));
 const legalLinks = enabledLegalPages.map((page) => ({ label: page.navLabel, slug: page.slug }));
