@@ -363,7 +363,7 @@ body[data-fixed-template="horror"] .nav-link:nth-child(n+4){display:flex}
 body[data-fixed-template="horror"] .brand{display:inline-flex;align-items:center;gap:8px;flex:0 0 auto;max-width:100%;font-family:Inter,sans-serif;font-size:16px;font-weight:700;letter-spacing:.01em;line-height:1;white-space:nowrap}
 body[data-fixed-template="horror"] .brand-mark{display:block;height:34px;width:auto;max-width:78px;object-fit:contain;flex:none}
 body[data-fixed-template="horror"] .brand-name{font-family:Inter,sans-serif;font-size:16px;line-height:1}
-body[data-fixed-template="horror"] .nav-link{flex:0 0 auto;display:flex;align-items:center;padding:10px 12px;font-size:13px;font-weight:600;letter-spacing:.02em;white-space:nowrap}
+body[data-fixed-template="horror"] header .nav-link{flex:0 0 auto;display:flex;align-items:center;padding:8px 6px;font-size:12px;font-weight:600;letter-spacing:0;white-space:nowrap}
 body[data-fixed-template="horror"] .kicker,
 body[data-fixed-template="horror"] .onpage-label,
 body[data-fixed-template="horror"] .section-index,
@@ -430,11 +430,14 @@ body[data-fixed-template="horror"] .cover img{width:100%;height:auto;display:blo
 body[data-fixed-template="horror"] article a,
 body[data-fixed-template="horror"] .supplement a{color:#f0c9c6}
 body[data-fixed-template="horror"] .section{padding:52px 0}
+@media(min-width:821px) and (max-width:1099px){
+  body[data-fixed-template="horror"] header .nav-link{padding-inline:3px}
+}
 @media(max-width:820px){
   body[data-fixed-template="horror"] header .head{flex-direction:column;align-items:stretch;width:min(1160px,calc(100% - 24px));min-height:0;gap:0;padding-top:8px;padding-bottom:4px}
   body[data-fixed-template="horror"] header .nav{width:100%;margin:2px 0 4px;justify-content:flex-start;row-gap:0}
   body[data-fixed-template="horror"] .nav-link:nth-child(n+4){display:flex}
-  body[data-fixed-template="horror"] .nav-link{padding:6px 8px;font-size:12.5px}
+  body[data-fixed-template="horror"] header .nav-link{padding:6px;font-size:12px}
   body[data-fixed-template="horror"] .brand-mark{height:30px;max-width:70px}
   body[data-fixed-template="horror"] .hero h1{font-size:42px}
   body[data-fixed-template="horror"] .inner-hero h1{font-size:36px}
