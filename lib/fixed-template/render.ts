@@ -357,8 +357,9 @@ body[data-fixed-template="horror"] main,
 body[data-fixed-template="horror"] article,
 body[data-fixed-template="horror"] .supplement{min-width:0;max-width:100%}
 body[data-fixed-template="horror"] header{min-height:0;overflow:visible}
-body[data-fixed-template="horror"] header .head{display:flex;align-items:center;flex-wrap:wrap;height:auto;min-height:56px;max-width:100%;gap:4px 16px;min-width:0}
-body[data-fixed-template="horror"] header .nav{display:flex;flex-wrap:wrap;justify-content:flex-end;overflow:visible;min-width:0;max-width:100%;height:auto;margin-left:auto}
+body[data-fixed-template="horror"] header .head{display:flex;align-items:center;flex-wrap:nowrap;height:auto;min-height:56px;max-width:100%;gap:4px 16px;min-width:0}
+body[data-fixed-template="horror"] header .nav{display:flex;flex:1 1 auto;flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;overflow-y:hidden;white-space:nowrap;-webkit-overflow-scrolling:touch;min-width:0;max-width:100%;height:auto;margin-left:0;scrollbar-width:thin}
+body[data-fixed-template="horror"] header .nav::before{content:"";margin-left:auto;flex:0 0 auto}
 body[data-fixed-template="horror"] .nav-link:nth-child(n+4){display:flex}
 body[data-fixed-template="horror"] .brand{display:inline-flex;align-items:center;gap:8px;flex:0 0 auto;max-width:100%;font-family:Inter,sans-serif;font-size:16px;font-weight:700;letter-spacing:.01em;line-height:1;white-space:nowrap}
 body[data-fixed-template="horror"] .brand-mark{display:block;height:34px;width:auto;max-width:78px;object-fit:contain;flex:none}
@@ -434,8 +435,9 @@ body[data-fixed-template="horror"] .section{padding:52px 0}
   body[data-fixed-template="horror"] header .nav-link{padding-inline:3px}
 }
 @media(max-width:820px){
-  body[data-fixed-template="horror"] header .head{flex-direction:column;align-items:stretch;width:min(1160px,calc(100% - 24px));min-height:0;gap:0;padding-top:8px;padding-bottom:4px}
-  body[data-fixed-template="horror"] header .nav{width:100%;margin:2px 0 4px;justify-content:flex-start;row-gap:0}
+  body[data-fixed-template="horror"] header .head{flex-direction:column;align-items:stretch;flex-wrap:nowrap;width:min(1160px,calc(100% - 24px));min-height:0;gap:0;padding-top:8px;padding-bottom:4px}
+  body[data-fixed-template="horror"] header .nav{width:100%;max-width:100%;margin:2px 0 4px;justify-content:flex-start;row-gap:0;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden}
+  body[data-fixed-template="horror"] header .nav::before{content:none;margin:0}
   body[data-fixed-template="horror"] .nav-link:nth-child(n+4){display:flex}
   body[data-fixed-template="horror"] header .nav-link{padding:6px;font-size:12px}
   body[data-fixed-template="horror"] .brand-mark{height:30px;max-width:70px}

@@ -13,6 +13,9 @@ const FAQ_HEADINGS: Record<string, string> = {
   "blood-demon-arts": "BDA FAQ",
   "final-selection": "Final Selection FAQ",
   dungeons: "Dungeons FAQ",
+  "golden-fish": "Slayers 2 Golden Fish FAQ",
+  "raid-chests": "Slayers 2 Raid Chests FAQ",
+  "sell-items": "Slayers 2 Selling FAQ",
 };
 
 export function formatReviewed(iso: string) {

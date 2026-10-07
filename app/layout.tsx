@@ -16,10 +16,26 @@ import "./globals.css";
 
 export const metadata = rootMetadata();
 
+const headerInsertAfter: Record<string, string[]> = {
+  fishing: ["golden-fish"],
+  "black-market": ["sell-items"],
+  dungeons: ["raid-chests"],
+};
+const headerInsertedSlugs = new Set(Object.values(headerInsertAfter).flat());
+const headerPagesBySlug = new Map([...enabledCorePages, ...enabledMoreGuides].map((page) => [page.slug, page]));
 const headerLinks = [
   { label: "Home", slug: "" },
-  ...enabledCorePages.map((page) => ({ label: page.navLabel, slug: page.slug })),
-  ...enabledMoreGuides.map((page) => ({ label: page.navLabel, slug: page.slug })),
+  ...enabledCorePages.flatMap((page) => {
+    const link = { label: page.navLabel, slug: page.slug };
+    const inserted = (headerInsertAfter[page.slug] ?? [])
+      .map((slug) => headerPagesBySlug.get(slug))
+      .filter((item) => item != null)
+      .map((item) => ({ label: item.navLabel, slug: item.slug }));
+    return [link, ...inserted];
+  }),
+  ...enabledMoreGuides
+    .filter((page) => !headerInsertedSlugs.has(page.slug))
+    .map((page) => ({ label: page.navLabel, slug: page.slug })),
 ];
 const footerLinks = enabledCorePages.map((page) => ({ label: page.navLabel, slug: page.slug }));
 const legalLinks = enabledLegalPages.map((page) => ({ label: page.navLabel, slug: page.slug }));
